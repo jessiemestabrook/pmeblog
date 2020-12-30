@@ -4,7 +4,10 @@ module.exports = {
     title: `pmeblog`,
     author: `P.M. Estabrook`,
     description: `Personal and technical blog for Patrick Estabrook.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://pmeblog.cool/`,
+    social: {
+      twitter: `gatsbyjs`,
+    },
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
