@@ -7,10 +7,7 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 import styled from "styled-components"
-
-import { rhythm } from "../utils/typography"
 
 function Bio() {
   return (
