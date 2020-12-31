@@ -1,13 +1,12 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "pmeblog.cool",
   "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
+  "description": "Personal and technical blog of P.M. Estabrook.",
   "version": "2.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "P.M. Estabrook",
   "dependencies": {
+    "@fontsource/roboto": "^4.1.0",
+    "@fontsource/roboto-mono": "^4.1.0",
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
     "babel-plugin-styled-components": "^1.10.0",
@@ -40,9 +39,8 @@
     "react-typography": "^0.16.19",
     "react-use-flexsearch": "^0.1.1",
     "styled-components": "^4.2.0",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
+    "typography-theme-ocean-beach": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
