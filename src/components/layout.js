@@ -24,7 +24,7 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
+              color: `blue`,
             }}
             to={location.pathname === blogPath ? `/blog/` : `/`}
           >
@@ -36,7 +36,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
+            fontFamily: `Roboto-Mono, sans-serif`,
             marginTop: 0,
           }}
         >
