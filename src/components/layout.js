@@ -25,6 +25,7 @@ class Layout extends React.Component {
               boxShadow: `none`,
               textDecoration: `none`,
               color: `blue`,
+              backgroundImage: 'none',
             }}
             to={location.pathname === blogPath ? `/blog/` : `/`}
           >
