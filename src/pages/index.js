@@ -3,7 +3,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import LogoSVG from "../components/logoSVG"
 // import Button from "../components/button"
 import SearchPosts from "../components/searchPosts"
 
@@ -20,8 +19,6 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <LogoSVG />
-
         <SearchPosts
           posts={posts}
           localSearchBlog={localSearchBlog}
