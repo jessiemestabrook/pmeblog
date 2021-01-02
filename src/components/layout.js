@@ -26,8 +26,8 @@ class Layout extends React.Component {
                 textDecoration: `none`,
                 color: `blue`,
                 backgroundImage: 'none',
-                height: '300px',
-                width: '300px'
+                height: '200px',
+                width: '200px'
               }}
               to={`/`}
             >
