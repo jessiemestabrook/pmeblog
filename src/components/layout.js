@@ -19,13 +19,15 @@ class Layout extends React.Component {
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
-          <header>
+          <header style={{ display: 'flex', justifyContent: 'center'}}>
             <Link
               style={{
                 boxShadow: `none`,
                 textDecoration: `none`,
                 color: `blue`,
                 backgroundImage: 'none',
+                height: '300px',
+                width: '300px'
               }}
               to={`/`}
             >
